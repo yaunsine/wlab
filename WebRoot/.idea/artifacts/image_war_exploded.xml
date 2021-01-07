@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="image:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/image_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="image" />
+          <element id="dir-copy" path="$PROJECT_DIR$/image/web/WEB-INF/lib" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/余柳浩/java.33/E扩展实验12-JDBC操作/mysql-connector-java-5.1.35.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/commons-io-2.6/commons-io-2.6.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="image/web/Web" />
+    </root>
+  </artifact>
+</component>
